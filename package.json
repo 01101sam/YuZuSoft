@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "@vuepress/plugin-pwa": "^2.0.0-beta.35",
+    "@vuepress/plugin-pwa-popup": "^2.0.0-beta.35",
+    "@vuepress/plugin-search": "^2.0.0-beta.35",
+    "vuepress": "^2.0.0-beta.35"
+  },
+  "name": "yuzusoft",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://gitlab.com/sam01101/YuZuSoft",
+  "author": "Sam <7699835-sam01101@users.noreply.gitlab.com>",
+  "license": "CC-BY-SA-4.0",
+  "private": true,
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
